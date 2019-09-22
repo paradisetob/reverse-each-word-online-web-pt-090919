@@ -12,5 +12,5 @@ def reverse_each_word (sentence1)
   reverse_each_word.collect do |sentence1|
 sentence1= "Hello there, and how are you?"
  end
- sentence1.reverse
+ sentence1.split
 end
